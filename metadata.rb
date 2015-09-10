@@ -1,0 +1,10 @@
+name 'sandy-storage'
+maintainer 'The Authors'
+maintainer_email 'you@example.com'
+license 'all_rights'
+description 'Installs/Configures sandy-storage'
+long_description 'Installs/Configures sandy-storage'
+version '0.2.0'
+
+depends 'gina-gluster'
+depends 'yum-epel'
