@@ -22,4 +22,6 @@ lvm_volume_group 'vg_gluster' do
 
     directory "#{attrs['mount']['location']}/brick"
   end
+
+  only_if { ::File.exists?('/dev/md127') }
 end
