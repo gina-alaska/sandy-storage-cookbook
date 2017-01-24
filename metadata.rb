@@ -4,7 +4,7 @@ maintainer_email 'you@example.com'
 license 'all_rights'
 description 'Installs/Configures sandy-storage'
 long_description 'Installs/Configures sandy-storage'
-version '0.4.1'
+version '0.4.2'
 
 depends 'gina-gluster'
 depends 'yum-epel'
